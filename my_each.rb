@@ -6,6 +6,6 @@ end
 
 collection = [1, 2, 3, 4]
 
-my_each do |i|
-  puts collection[i]
+my_each do 
+  
 end
