@@ -4,6 +4,7 @@ def my_each(collection)
     puts "Before yield"
     yield(collection)
     puts "After yield"
+    count += 1
 end
 
 collection = [1, 2, 3, 4]
