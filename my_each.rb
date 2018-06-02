@@ -4,6 +4,7 @@ def my_each(collection)
     yield(collection[count])
     count += 1
   end
+  return collection
 end
 
 collection = [1, 2, 3, 4]
