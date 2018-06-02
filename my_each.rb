@@ -1,6 +1,6 @@
 def my_each(collection)
   puts "Before yield"
-  yield
+  yield(collection)
   puts "After yield"
 end
 
