@@ -1,4 +1,6 @@
 def my_each(collection)
+  count = 0
+  while count < collection.length
   puts "Before yield"
   yield(collection)
   puts "After yield"
