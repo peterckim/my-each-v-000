@@ -1,7 +1,7 @@
 def my_each(collection)
   count = 0
   while count < collection.length
-    yield(collection)
+    yield(collection[0])
     count += 1
   end
 end
@@ -9,5 +9,5 @@ end
 collection = [1, 2, 3, 4]
 
 my_each(collection) do |i|
-  puts "HI #{i[1]}"
+  puts "HI #{i}"
 end
